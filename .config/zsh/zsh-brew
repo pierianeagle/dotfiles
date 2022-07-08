@@ -1,0 +1,17 @@
+# homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# homebrew completions
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
+
+# asdf
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# direnv
+eval "$(direnv hook zsh)"
