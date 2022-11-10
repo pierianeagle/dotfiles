@@ -10,4 +10,13 @@ Thumbs.db
 *.pyc
 __pycache__/
 
+.venv/
+
+.tool-versions
+
+.direnv/
+.envrc
+
 .vscode/
+*.code-workspace
+
