@@ -1,6 +1,7 @@
 [user]
 	name = alpal
 	email = <>
+	signingkey = 16B50065267068A2
 
 [core]
 	excludesfile = /Users/alpal/.gitignore
@@ -18,3 +19,9 @@
 
 [credential]
 	helper = osxkeychain
+
+[commit]
+	gpgSign = true
+
+[tag]
+	gpgSign = true
