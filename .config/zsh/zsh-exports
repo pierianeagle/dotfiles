@@ -14,3 +14,5 @@ export XDG_PROJECTS_DIR=${XDG_PROJECTS_DIR:-$HOME/Projects}
 export BROWSER='open'
 
 export EDITOR="vim"
+
+export GPG_TTY=$(tty)
