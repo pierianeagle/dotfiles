@@ -1,5 +1,5 @@
 # use bare git repo
-alias config='/usr/bin/git --git-dir=/Users/alpal/.cfg/ --work-tree=/Users/alpal'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 
 # set options

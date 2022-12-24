@@ -4,8 +4,6 @@
 	signingkey = 16B50065267068A2
 
 [core]
-	excludesfile = /Users/alpal/.gitignore
-
 	trustctime = false
 	precomposeunicode = false
 
