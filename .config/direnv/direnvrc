@@ -2,7 +2,8 @@ layout_poetry() {
     PYPROJECT_TOML="${PYPROJECT_TOML:-pyproject.toml}"
     if [[ ! -f "$PYPROJECT_TOML" ]]; then
         log_status "No pyproject.toml found. Executing \`poetry init\` to create a \`$PYPROJECT_TOML\` first."
-        poetry init
+        # Specify the active python (major.minor version) rather than the one used to install poetry in case they are not the same.
+        poetry init --python ^$(python3 --version 2>/dev/null | cut -d' ' -f2 | cut -d. -f1-2)
     fi
 
     if [[ -d ".venv" ]]; then
