@@ -27,6 +27,7 @@ zle-line-init() {
 }
 zle -N zle-line-init
 
+
 # use beam shape cursor on startup and for new prompts
 echo -ne '\e[5 q' 
 preexec() { echo -ne '\e[5 q' ;}
