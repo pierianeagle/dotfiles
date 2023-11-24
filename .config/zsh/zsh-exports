@@ -11,6 +11,8 @@ export XDG_PICTURES_DIR=${XDG_PICTURES_DIR:-$HOME/Pictures}
 export XDG_VIDEOS_DIR=${XDG_VIDEOS_DIR:-$HOME/Videos}
 export XDG_PROJECTS_DIR=${XDG_PROJECTS_DIR:-$HOME/Projects}
 
+export PATH="$HOME/.local/bin:$PATH"
+
 export BROWSER='open'
 
 export EDITOR="vim"
