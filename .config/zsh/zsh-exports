@@ -13,8 +13,10 @@ export XDG_PROJECTS_DIR=${XDG_PROJECTS_DIR:-$HOME/Projects}
 
 export PATH="$HOME/.local/bin:$PATH"
 
-export BROWSER='open'
+export BROWSER="open"
 
 export EDITOR="vim"
 
 export GPG_TTY=$(tty)
+
+export HOMEBREW_NO_ANALYTICS=1
