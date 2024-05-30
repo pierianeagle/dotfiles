@@ -1,7 +1,7 @@
 [user]
-	name = alpal
+	name = xxx
 	email = spring_special_0f@icloud.com
-	signingkey = 16B50065267068A2
+	signingkey = xxx
 
 [core]
 	trustctime = false
