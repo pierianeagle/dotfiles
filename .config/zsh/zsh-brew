@@ -12,9 +12,5 @@ then
 fi
 
 
-# asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
-
-
 # direnv
 eval "$(direnv hook zsh)"

@@ -12,6 +12,7 @@ export XDG_VIDEOS_DIR=${XDG_VIDEOS_DIR:-$HOME/Videos}
 export XDG_PROJECTS_DIR=${XDG_PROJECTS_DIR:-$HOME/Projects}
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 export BROWSER="open"
 
@@ -20,3 +21,5 @@ export EDITOR="vim"
 export GPG_TTY=$(tty)
 
 export HOMEBREW_NO_ANALYTICS=1
+
+export POETRY_VIRTUALENVS_IN_PROJECT=true
